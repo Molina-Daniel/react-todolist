@@ -7,7 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <List />
+        <List itemList={["Get milk", "Buy Amazon", "Take over the world"]}/>
+        <List itemList={["Get bread", "Get eggs"]}/>
       </header>
     </div>
   );
